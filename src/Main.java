@@ -16,6 +16,7 @@ public class Main {
         double bonus = (summ * percent / 100) + amount + summ;
 
         System.out.println(bonus);
+
     }
 }
 
