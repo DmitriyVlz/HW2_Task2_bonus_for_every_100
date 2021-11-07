@@ -9,9 +9,9 @@ public class Main {
 
         double percent;
         if (summ > 1_000) {
-            percent = 10;
+            percent = 1;
         } else {
-            percent = amount + summ;
+            percent = 0;
         }
         double bonus = (summ * percent / 100) + amount + summ;
 
